@@ -1,2 +1,2 @@
-# burnleyblindsociety.github.io
-Blind Society Website
+##Burnley Blind Society Website
+##Coming Soon
