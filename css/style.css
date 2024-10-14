@@ -1,0 +1,44 @@
+/*===== RESET STYLE =====
+
+/*-- iPhone X Remove Gutters
+Ignore W3C Validation error for this style --*/
+html {
+  padding: env(safe-area-inset);
+}
+
+/*-- Body resets --*/
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #505962;
+}
+
+.landing {
+  position: relative;
+  width: 100%;
+  display: table;
+  z-index: -1;
+}
+
+.home_wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.home_inner {
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-color: skyblue;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  will-change: transform;
+}
