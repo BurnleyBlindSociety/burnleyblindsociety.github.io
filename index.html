@@ -8,7 +8,8 @@
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Burnley Blind Society</title>
-    <link rel="shortcut icon" href="img/favicon.ico" />
+    <!-- Shortcut icon link
+    <link rel="shortcut icon" href="img/favicon.ico" /> -->
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- Style.css -->
@@ -23,14 +24,58 @@
     <!-- Start Home Section -->
     <div id="home">
       <!-- Navigation -->
-      <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top"></nav>
+      <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+        <a href="index.html" class="navbar-brand"
+          ><img src="Images/BBSLogo3.svg" alt="Logo" title="Logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#donate" class="nav-link">Donate</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Spare</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
       <!-- End Navigation -->
 
       <!-- Start Landing Page Image-->
+      <div class="landing">
+        <div class="home-wrap">
+          <div class="home-inner"></div>
+        </div>
+      </div>
 
       <!-- End Landing Page Image -->
 
       <!-- Start Landing Page Content -->
+      <div class="col-12 caption">
+        <h1 class="myabout text-dark text-uppercase">
+          The Burnley and District Society<br />for the<br />Blind and Visually
+          Impaired<br /></h1>
+          <h2 class="myabout"><i>Registered Charity : 221896</i></h2>
+        <a href="#about" class="btn btn-outline-dark">About us</a>
+      </div>
 
       <!-- End Landing Page Content-->
     </div>
@@ -43,11 +88,6 @@
         <div class="col-11 col-md-10 col-lg-9">
           <h2>Welcome to</h2>
           <h1>THE BURNLEY BLIND CLUB</h1>
-          The Burnley and District Society for the Blind and Visually
-          Impaired<br />
-          <i>Registered Charity : 221896</i>
-          <p class="lead"></p>
-          <h1>Website Coming Soon!!</h1>
         </div>
       </div>
       <!-- End Theme Heading -->
@@ -91,19 +131,22 @@
   </body>
 </html>
 
+<!-- COMMENTED OUT TO STOP DUAL DECLARATIONS
 <link
   rel="stylesheet"
   href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
   integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
   crossorigin="anonymous"
-/>
+/> -->
 <link
   href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400&display=swap"
   rel="stylesheet"
 />
+<!--
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
 <script
   src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
   integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
   crossorigin="anonymous"
 ></script>
+-->

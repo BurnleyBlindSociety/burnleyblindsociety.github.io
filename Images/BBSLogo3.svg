@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="341.55176"
+   height="82.565865"
+   viewBox="0 0 341.55175 82.565865"
+   sodipodi:docname="BBSLogo3.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="4.7232523"
+     inkscape:cx="198.06268"
+     inkscape:cy="34.192541"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g1"
+     transform="translate(22.187952,0.6764729)">
+    <g
+       id="g3">
+      <g
+         id="g2"
+         transform="matrix(1.5695777,0,0,2.0670739,-21.720319,-28.092923)"
+         style="stroke-width:3.44265;stroke-dasharray:none">
+        <ellipse
+           style="fill:none;stroke:#ffd42a;stroke-width:3.44265;stroke-dasharray:none"
+           id="path1"
+           cx="32.037426"
+           cy="33.235088"
+           rx="30.614037"
+           ry="14.894741" />
+        <circle
+           style="fill:none;stroke:#ffd42a;stroke-width:3.44265;stroke-dasharray:none"
+           id="path2"
+           cx="32.037426"
+           cy="33.235088"
+           r="11.377778" />
+        <path
+           style="fill:none;stroke:#ffd42a;stroke-width:3.44265;stroke-dasharray:none"
+           d="M 46.259648,14.297076 17.815203,52.173099"
+           id="path3" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:41.56px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffd42a;stroke:#ffd42a;stroke-width:2.36472;stroke-dasharray:none"
+         x="129.21756"
+         y="36.568657"
+         id="text2"
+         transform="scale(0.63544666,1.5736962)"><tspan
+           sodipodi:role="line"
+           id="tspan2"
+           x="129.21756"
+           y="36.568657"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';fill:#ffd42a;stroke-width:2.36472;stroke-dasharray:none">Burnley Blind Club</tspan></text>
+    </g>
+  </g>
+</svg>
