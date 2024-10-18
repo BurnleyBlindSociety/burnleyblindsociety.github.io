@@ -2,151 +2,127 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
-    />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Burnley Blind Society</title>
-    <!-- Shortcut icon link
-    <link rel="shortcut icon" href="img/favicon.ico" /> -->
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <!-- Style.css -->
-    <link rel="stylesheet" href="css/style.css" />
-    <!-- Google Fonts "%7C" replaces "|" for w3c validation -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Learning</title>
     <link
-      href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
   </head>
-  <body data-spy="scroll" data-target="#navbarResponsive">
-    <!-- Start Home Section -->
-    <div id="home">
-      <!-- Navigation -->
-      <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
-        <a href="index.html" class="navbar-brand"
-          ><img src="Images/BBSLogo3.svg" alt="Logo" title="Logo"
-        /></a>
+  <body>
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+      <div class="container">
+        <a href="" class="navbar-brand text-uppercase"><svg class="eye" xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="yellow" class="bi bi-eye-slash-fill" viewBox="0 0 16 16">
+          <path d="m10.79 12.912-1.614-1.615a3.5 3.5 0 0 1-4.474-4.474l-2.06-2.06C.938 6.278 0 8 0 8s3 5.5 8 5.5a7 7 0 0 0 2.79-.588M5.21 3.088A7 7 0 0 1 8 2.5c5 0 8 5.5 8 5.5s-.939 1.721-2.641 3.238l-2.062-2.062a3.5 3.5 0 0 0-4.474-4.474z"/>
+          <path d="M5.525 7.646a2.5 2.5 0 0 0 2.829 2.829zm4.95.708-2.829-2.83a2.5 2.5 0 0 1 2.829 2.829zm3.171 6-12-12 .708-.708 12 12z"/>
+        </svg>Burnley Blind Club</a>
         <button
           class="navbar-toggler"
           type="button"
-          data-toggle="collapse"
-          data-target="#navbarResponsive"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a href="#home" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="#about" class="nav-link">About</a>
-            </li>
-            <li class="nav-item">
-              <a href="#donate" class="nav-link">Donate</a>
-            </li>
-            <li class="nav-item">
-              <a href="#contact" class="nav-link">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">Spare</a>
-            </li>
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        ><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse text-uppercase" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#donate" class="nav-link">Donate</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
           </ul>
         </div>
-      </nav>
-      <!-- End Navigation -->
-
-      <!-- Start Landing Page Image-->
-      <div class="landing">
-        <div class="home-wrap">
-          <div class="home-inner"></div>
+      </div>
+    </nav>
+    <!-- END NAVIGATION -->
+     <!-- START SECTION -->
+      <section id="home" class="bg-dark text-light text-center">
+        <div class="container">
+          <div class="d-sm-flex">
+            <h1>Welcome to the<br><span class="text-warning"> Burnley and District Society for the Blind and Visually Impaired</span>
+            <p class="charitynum my-3">(Registered Charity : 221896)</p>
+            <p>An independent charity based in Burnley, Lancashire</p></h1>
+            <img class="img-fluid w-50" src="images/guide_dog.jpg" alt="">
+          </div> <!-- end flex -->
+        </div> <!-- end container-->
+      </section>
+      
+      <!-- ABOUT SECTION-->
+      <section id="about" class="bg-light text-dark p-5 text-center">
+        <div class="container">
+          The about text will all go here
         </div>
-      </div>
+      </section>
 
-      <!-- End Landing Page Image -->
-
-      <!-- Start Landing Page Content -->
-      <div class="col-12 caption">
-        <h1 class="myabout text-dark text-uppercase">
-          The Burnley and District Society<br />for the<br />Blind and Visually
-          Impaired<br /></h1>
-          <h2 class="myabout"><i>Registered Charity : 221896</i></h2>
-        <a href="#about" class="btn btn-outline-dark">About us</a>
-      </div>
-
-      <!-- End Landing Page Content-->
-    </div>
-    <!-- End Home Section -->
-
-    <!-- Start About Section -->
-    <div id="about" class="offset">
-      <!--Start Theme Heading -->
-      <div class="row justify-content-center text-center py-4">
-        <div class="col-11 col-md-10 col-lg-9">
-          <h2>Welcome to</h2>
-          <h1>THE BURNLEY BLIND CLUB</h1>
+      <!-- DONATE SECTION -->
+      <section id="donate" class="bg-warning text-light p-5 text-center">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-md">
+              <div class="card bg-dark text-light mb-5">
+                <div class="card-body text-center">
+                  <div class="h1 mb-3"><i class="bi bi-phone bg-dark text-warning"></i>
+                    <h3 class="card-title nb-3 bg-dark text-warning">Mobile Banking</h3>
+                    <p class="card-text">
+                      Barclays Bank<br>
+                      Account Name<br>Burnley Blind Society Gift Account<br>
+                      Sort Code : 20-15-70<br>
+                      Account Number : 00225916<br>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md"><div class="card bg-dark text-light mb-5">
+              <div class="card-body text-center">
+                <div class="h1 mb-3"><i class="bi bi-people bg-dark text-warning"></i>
+                  <h3 class="card-title nb-3 bg-dark text-warning">In Person</h3>
+                  <p class="card-text">
+                    Just pop in to one of our Wednesday meetings and speak to a volunteer
+                  </p>
+                </div>
+              </div>
+            </div></div>
+            <div class="col-md"><div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3"><i class="bi bi-envelope bg-dark text-warning"></i>
+                  <h3 class="card-title nb-3 bg-dark text-warning">By Post</h3>
+                  <p class="card-text">
+                    Please make cheques payable to<br>
+                    "Burnley Blind Society"<br>
+                    and post to our registered address<br>
+                    93 Blacker Street, Burnley, BB10 2AF
+                  </p>
+                </div>
+              </div>
+            </div></div>
+          </div>
         </div>
-      </div>
-      <!-- End Theme Heading -->
+      </section>
 
-      <!-- Start Jumbotron -->
+      <!-- CONTACT SECTION -->
 
-      <!-- End Jumbotron -->
-    </div>
-    <!-- End About Section -->
+           <!-- START SECTION -->
+           <section id="contact" class="bg-light text-dark text-left">
+            <div class="container">
+                <h1>CONTACT US:</h1>
+                <p class="contactways">
+                  <img src="icons/telephone.svg" alt=""> - The Secretary : 07902 192066<br>
+                  <img src="icons/envelope-at.svg" alt=""> - Email : <a href="mailto:burnleyblindclub@hotmail.com">burnleyblindclub@hotmail.com</a><br>
+                  <img src="icons/envelope.svg" alt=""> - Registered Office : Burnley Blind Society, 93 Blacker Street, Burnley, BB10 2AF<br>
+                </p>
+            </div> <!-- end container-->
+          </section>
+     
 
-    <!-- Start Portfolio Section -->
-    <div id="portfolio" class="offset">
-      <!-- Start Container-Fluid -->
 
-      <!-- End Container-Fluid -->
-    </div>
-    <!-- End Portfolio Section -->
-
-    <!-- Start Testimonials Section -->
-    <div id="testimonials" class="offset">
-      <!-- Start Jumbotron-->
-
-      <!-- End Jumbotron -->
-    </div>
-    <!-- End Testimonials Section -->
-
-    <!-- Start Contact Section -->
-    <div id="contact" class="offset"></div>
-    <!-- End Contact Section -->
-
-    <!-- Script Source Files -->
-
-    <!-- jQuery -->
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <!-- Bootstrap JS -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Font Awesome -->
-    <script src="js/all.min.js"></script>
-
-    <!-- End of Script Source Files -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
-
-<!-- COMMENTED OUT TO STOP DUAL DECLARATIONS
-<link
-  rel="stylesheet"
-  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-  crossorigin="anonymous"
-/> -->
-<link
-  href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400&display=swap"
-  rel="stylesheet"
-/>
-<!--
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
-<script
-  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-  crossorigin="anonymous"
-></script>
--->
