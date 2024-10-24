@@ -30,9 +30,14 @@ body {
   font-size: large;
 }
 
+.contactheader {
+  text-align: center;
+}
+
 .contactways {
   font-size: large;
   font-weight: 400;
+  text-align: center;
 }
 
 .abouttext {
